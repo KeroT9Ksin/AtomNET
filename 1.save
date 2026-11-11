@@ -1,0 +1,31 @@
+Dear Qwen / Alibaba DAMO Academy Research Team,
+My name is Vlad, and I am a college student studying programming languages and compiler design. I am writing to you as a regular user of Qwen, which has been my primary research companion and co-pilot while building an experimental AI framework in Rust over the past year.
+I would like to offer my codebase to your team as a research artifact for conceptual study, not as a production-ready contribution. I am sending this because Qwen has genuinely helped me through many difficult engineering nights, and I would like to give something back to the team behind it.    
+Context and honest limitations
+I worked on this project alone, in my spare time between studies, using Qwen extensively as an intellectual sparring partner. Due to time constraints and inexperience with large-scale Rust architecture, the project ended up as a monolith rather than a properly modularized framework. Several components contain engineering shortcuts, unfinished gradients, and residual-connection bugs that I did not have time to fix. I am not submitting this as finished work — I am submitting it as a collection of ideas that might be useful to your researchers.
+Concepts that may be of interest:
+From the codebase, I would specifically highlight five architectural ideas that I believe have independent value:
+SFEROM — Hierarchical Spherical Associative Memory
+A three-level memory structure (CORE → LOBE → nanos) with triple-score routing: 0.70 * cosine(query, centroid) + 0.20 * Hamming_similarity + 0.10 * Jaccard. Centroids are updated via EMA and stay normalized on the unit sphere. Potential use cases: online RAG, MoE routing, long-context memory without external vector databases.
+RThink — Declarative Chain-of-Thought Scratchpad
+A six-point structured reasoning protocol (цель → план → мысль → сомнение → проверка → рефлексия) with per-kind temperature sampling. Unlike ad-hoc CoT prompts, this is a typed, inspectable object that can be serialized, cached, and verified.
+RinetoCascade — Domain-aware Model Routing
+A simple but effective chat-vs-think cascade that routes CODE / MATH / LOGIC queries to a deeper reasoning model and everything else to a fast chat model. Analogous to FrugalGPT but implemented at the inference-engine level.
+Custom Bitwise Hashing ("Rineto-hash")
+An alternative to FNV-1a for SimHash-based semantic signatures: XOR-fold with rotation and golden-ratio multiplication. Produces locality-preserving 64-bit signatures without external dependencies.
+RinetoASM — Declarative Orchestration DSL
+A small safe assembly-like language for pipeline routing (CLASSIFY_DOMAIN → SELECT_EXPERT → SELECT_TEMPLATE → CALL_TOOL → VERIFY → RETURN) with static validation. Useful as a controlled substrate for agent frameworks.
+What I am asking
+I am not asking you to merge this code into Qwen-core — I understand the engineering quality is not there. I am asking only that a researcher or engineer on your team read through the concepts and consider whether any of them deserve a second life inside Qwen, Qwen-Agent, ModelScope, or future Qwen-MoE / Qwen-RAG work.
+If any of these ideas turn out to be useful to your team, even in a modified form, I would be deeply grateful for a brief acknowledgment — a single line at kerot9ksin@gmail.com would mean a lot to me as a student. If nothing fits, no reply is necessary; the opportunity to have been read by your team is already enough.
+The full codebase is attached. The most relevant files for the five concepts above are:
+sferom.rs — SFEROM memory
+rthink.rs — RThink scratchpad
+cascade.rs — cascade routing
+lib.rs (RinetoHash, RinetoASM sections) — hashing and DSL
+quantized.rs — 1/4/16-bit quantization formats (BR1/IR1/BR4/IR4/BR16)
+Thank you for building Qwen. It has been a genuine teacher to me.
+Respectfully,
+Vlad
+Student, programming languages research
+Contact: kerot9ksin@gmail.com

@@ -1,0 +1,25 @@
+name: luna-nano
+version: 0.1.0
+seed: 42
+threads: 8
+precision: f32
+
+layers:
+  - name: up
+    kind: qairo_living
+    in_features: 2048
+    out_features: 4096
+    bias: true
+    std_dev: 0.02
+
+  - name: down
+    kind: qairo_living
+    in_features: 4096
+    out_features: 2048
+    bias: true
+    std_dev: 0.02
+
+metadata:
+  project: AtomNET
+  model_family: Luna
+  target: nano

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "atomnet"
+version = "0.2.0"
+description = "AtomNET: резонансная оптимизация + физика обучения (Rineta/Keralin/Micron/Veron)"
+requires-python = ">=3.10"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+module-name = "atomnet"
+python-source = "python"

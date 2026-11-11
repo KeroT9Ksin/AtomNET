@@ -1,0 +1,23 @@
+# living log (L5 sandbox) steps=60
+step 0: GENERATE topic=проверка interest=0.10 curiosity=0.63
+step 1: GENERATE topic=проверка interest=0.04 curiosity=0.98
+step 3: GENERATE topic=проверка interest=0.07 curiosity=1.00
+step 6: REST energy=0.99 mastery=0.54
+step 11: VERIFY 54+17=71 ok=true
+step 14: REST energy=0.91 mastery=0.70
+step 18: GENERATE topic=проверка interest=0.59 curiosity=1.00
+step 22: REST energy=0.85 mastery=0.81
+step 23: VERIFY 56+31=87 ok=true
+step 24: GENERATE topic=проверка interest=0.73 curiosity=1.00
+step 29: REST energy=0.92 mastery=0.95
+step 30: GENERATE topic=проверка interest=0.84 curiosity=1.00
+step 35: VERIFY 27+62=89 ok=true
+step 36: REST energy=0.99 mastery=1.00
+step 37: GENERATE topic=проверка interest=0.76 curiosity=1.00
+step 42: GENERATE topic=проверка interest=0.86 curiosity=1.00
+step 44: REST energy=0.93 mastery=1.00
+step 47: VERIFY 79+22=101 ok=true
+step 48: GENERATE topic=проверка interest=0.76 curiosity=1.00
+step 52: REST energy=0.85 mastery=1.00
+step 54: GENERATE topic=проверка interest=0.86 curiosity=1.00
+step 59: REST energy=0.94 mastery=1.00

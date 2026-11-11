@@ -1,0 +1,42 @@
+{
+  "loss0": 2.0994629859924316,
+  "final": {
+    "keralin": 3.098596954107663e-14,
+    "adamw": 3.3077578490917775e-14
+  },
+  "tail_mean": {
+    "keralin": 3.6479552322952414e-14,
+    "adamw": 3.562396303002978e-14
+  },
+  "tail_cv": {
+    "keralin": 0.004549334135469864,
+    "adamw": 0.0020539275323914045
+  },
+  "epochs_to_1e-3": {
+    "keralin": 55,
+    "adamw": 49
+  },
+  "epochs_to_5e-4": {
+    "keralin": 62,
+    "adamw": 56
+  },
+  "keralin_stats": {
+    "final_coherence": 1.7814457464737643e-08,
+    "integrity_ok": true,
+    "dead": 0,
+    "alive_counts": [
+      0,
+      0,
+      0,
+      928,
+      0,
+      0
+    ],
+    "steps": 400,
+    "warmed": 0,
+    "wall_s": 10.93
+  },
+  "adamw_stats": {
+    "wall_s": 11.01
+  }
+}

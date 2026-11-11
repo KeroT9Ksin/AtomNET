@@ -1,0 +1,224 @@
+# living log (L5 sandbox) steps=500
+step 0: GENERATE topic=проверка interest=0.10 curiosity=0.64
+step 1: GENERATE topic=проверка interest=0.19 curiosity=0.90
+step 3: GENERATE topic=проверка interest=0.34 curiosity=1.00
+step 6: REST energy=0.99 mastery=0.64
+step 11: VERIFY 89+91=180 ok=true
+step 14: REST energy=0.91 mastery=0.80
+step 18: GENERATE topic=проверка interest=0.81 curiosity=1.00
+step 22: REST energy=0.85 mastery=0.96
+step 23: VERIFY 94+61=155 ok=true
+step 24: GENERATE topic=проверка interest=0.73 curiosity=1.00
+step 29: REST energy=0.92 mastery=1.00
+step 30: GENERATE topic=проверка interest=0.84 curiosity=1.00
+step 35: VERIFY 55+35=90 ok=true
+step 36: REST energy=0.99 mastery=1.00
+step 37: GENERATE topic=проверка interest=0.91 curiosity=1.00
+step 42: GENERATE topic=проверка interest=0.94 curiosity=1.00
+step 44: REST energy=0.93 mastery=1.00
+step 47: VERIFY 91+95=186 ok=true
+step 48: GENERATE topic=проверка interest=0.96 curiosity=1.00
+step 52: REST energy=0.85 mastery=1.00
+step 54: GENERATE topic=проверка interest=0.98 curiosity=1.00
+step 59: REST energy=0.94 mastery=1.00
+step 60: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 66: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 67: REST energy=0.88 mastery=1.00
+step 71: VERIFY 75+55=130 ok=true
+step 72: GENERATE topic=проверка interest=0.85 curiosity=1.00
+step 74: REST energy=0.95 mastery=1.00
+step 78: GENERATE topic=проверка interest=0.76 curiosity=1.00
+step 82: REST energy=0.89 mastery=1.00
+step 83: VERIFY 89+49=138 ok=true
+step 84: GENERATE topic=проверка interest=0.84 curiosity=1.00
+step 89: REST energy=0.96 mastery=1.00
+step 90: GENERATE topic=проверка interest=0.91 curiosity=1.00
+step 95: VERIFY 50+17=67 ok=true
+step 96: GENERATE topic=проверка interest=0.94 curiosity=1.00
+step 97: REST energy=0.88 mastery=1.00
+step 102: GENERATE topic=проверка interest=0.82 curiosity=1.00
+step 104: REST energy=0.97 mastery=1.00
+step 107: VERIFY 58+68=126 ok=true
+step 108: GENERATE topic=проверка interest=0.88 curiosity=1.00
+step 112: REST energy=0.89 mastery=1.00
+step 114: GENERATE topic=проверка interest=0.93 curiosity=1.00
+step 119: REST energy=0.98 mastery=1.00
+step 120: GENERATE topic=проверка interest=0.96 curiosity=1.00
+step 126: GENERATE topic=проверка interest=0.98 curiosity=1.00
+step 127: REST energy=0.92 mastery=1.00
+step 131: VERIFY 12+60=72 ok=true
+step 132: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 134: REST energy=0.99 mastery=1.00
+step 138: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 142: REST energy=0.93 mastery=1.00
+step 143: VERIFY 41+52=93 ok=true
+step 144: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 150: REST energy=0.97 mastery=1.00
+step 151: GENERATE topic=проверка interest=1.00 curiosity=1.00
+step 155: VERIFY 11+18=29 ok=true
+step 156: GENERATE topic=проверка interest=0.85 curiosity=1.00
+step 158: REST energy=0.89 mastery=1.00
+step 162: GENERATE topic=проверка interest=0.91 curiosity=1.00
+step 165: REST energy=0.98 mastery=1.00
+step 167: VERIFY 35+38=73 ok=true
+step 168: GENERATE topic=проверка interest=0.94 curiosity=1.00
+step 173: REST energy=0.90 mastery=1.00
+step 174: GENERATE topic=проверка interest=0.97 curiosity=1.00
+step 179: VERIFY 29+76=105 ok=true
+step 180: REST energy=0.97 mastery=1.00
+step 181: GENERATE topic=проверка interest=0.83 curiosity=1.00
+step 186: GENERATE topic=проверка interest=0.90 curiosity=1.00
+step 188: REST energy=0.91 mastery=1.00
+step 191: VERIFY 55+21=76 ok=true
+step 192: GENERATE topic=проверка interest=0.93 curiosity=1.00
+step 195: REST energy=0.98 mastery=1.00
+step 198: GENERATE topic=проверка interest=0.81 curiosity=1.00
+step 203: REST energy=0.92 mastery=1.00
+step 204: GENERATE topic=проверка interest=0.74 curiosity=1.00
+step 205: GENERATE topic=числа interest=0.64 curiosity=1.00
+step 210: GENERATE topic=проверка interest=0.81 curiosity=1.00
+step 211: REST energy=0.86 mastery=1.00
+step 215: VERIFY 94+57=151 ok=true
+step 216: GENERATE topic=проверка interest=0.87 curiosity=1.00
+step 218: REST energy=0.93 mastery=1.00
+step 222: GENERATE topic=проверка interest=0.93 curiosity=1.00
+step 226: REST energy=0.87 mastery=1.00
+step 227: VERIFY 77+22=99 ok=true
+step 228: GENERATE topic=проверка interest=0.95 curiosity=1.00
+step 233: REST energy=0.94 mastery=1.00
+step 234: GENERATE topic=проверка interest=0.82 curiosity=1.00
+step 239: VERIFY 74+94=168 ok=true
+step 240: GENERATE topic=проверка interest=0.74 curiosity=1.00
+step 241: REST energy=0.86 mastery=0.99
+step 243: GENERATE topic=числа interest=0.66 curiosity=1.00
+step 246: GENERATE topic=проверка interest=0.66 curiosity=1.00
+step 247: GENERATE topic=числа interest=0.73 curiosity=1.00
+step 248: REST energy=0.95 mastery=1.00
+step 249: GENERATE topic=числа interest=0.75 curiosity=1.00
+step 250: GENERATE topic=числа interest=0.63 curiosity=1.00
+step 251: VERIFY 58+89=147 ok=true
+step 252: GENERATE topic=проверка interest=0.70 curiosity=1.00
+step 256: REST energy=0.87 mastery=1.00
+step 258: GENERATE topic=проверка interest=0.82 curiosity=1.00
+step 263: REST energy=0.96 mastery=1.00
+step 264: GENERATE topic=проверка interest=0.89 curiosity=1.00
+step 270: GENERATE topic=проверка interest=0.94 curiosity=1.00
+step 271: REST energy=0.90 mastery=1.00
+step 275: VERIFY 92+50=142 ok=true
+step 276: GENERATE topic=проверка interest=0.96 curiosity=1.00
+step 278: REST energy=0.97 mastery=1.00
+step 282: GENERATE topic=проверка interest=0.98 curiosity=1.00
+step 286: REST energy=0.91 mastery=1.00
+step 287: VERIFY 95+63=158 ok=true
+step 288: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 293: REST energy=0.98 mastery=1.00
+step 294: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 299: VERIFY 12+82=94 ok=true
+step 300: GENERATE topic=проверка interest=1.00 curiosity=1.00
+step 301: REST energy=0.90 mastery=1.00
+step 306: GENERATE topic=проверка interest=1.00 curiosity=1.00
+step 308: REST energy=0.99 mastery=1.00
+step 311: VERIFY 17+17=34 ok=true
+step 312: GENERATE topic=проверка interest=0.85 curiosity=1.00
+step 316: REST energy=0.91 mastery=1.00
+step 318: GENERATE topic=проверка interest=0.91 curiosity=1.00
+step 323: VERIFY 30+26=56 ok=true
+step 324: REST energy=0.95 mastery=1.00
+step 325: GENERATE topic=проверка interest=0.95 curiosity=1.00
+step 330: GENERATE topic=проверка interest=0.97 curiosity=1.00
+step 332: REST energy=0.89 mastery=1.00
+step 335: VERIFY 27+33=60 ok=true
+step 336: GENERATE topic=проверка interest=0.98 curiosity=1.00
+step 338: REST energy=0.99 mastery=1.00
+step 342: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 346: REST energy=0.93 mastery=1.00
+step 347: VERIFY 31+90=121 ok=true
+step 348: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 354: REST energy=0.97 mastery=1.00
+step 355: GENERATE topic=проверка interest=1.00 curiosity=1.00
+step 359: VERIFY 41+67=108 ok=true
+step 360: GENERATE topic=проверка interest=1.00 curiosity=1.00
+step 362: REST energy=0.89 mastery=1.00
+step 366: GENERATE topic=проверка interest=1.00 curiosity=1.00
+step 369: REST energy=0.98 mastery=1.00
+step 371: VERIFY 17+79=96 ok=true
+step 372: GENERATE topic=проверка interest=0.85 curiosity=1.00
+step 373: GENERATE topic=числа interest=0.88 curiosity=1.00
+step 375: GENERATE topic=числа interest=0.91 curiosity=1.00
+step 376: GENERATE topic=числа interest=0.91 curiosity=1.00
+step 377: REST energy=0.90 mastery=1.00
+step 378: GENERATE topic=числа interest=0.92 curiosity=1.00
+step 379: GENERATE topic=числа interest=0.93 curiosity=1.00
+step 381: GENERATE topic=числа interest=0.94 curiosity=1.00
+step 382: GENERATE topic=числа interest=0.95 curiosity=1.00
+step 383: VERIFY 18+91=109 ok=true
+step 384: REST energy=0.97 mastery=1.00
+step 385: GENERATE topic=числа interest=0.96 curiosity=1.00
+step 387: GENERATE topic=числа interest=0.97 curiosity=1.00
+step 388: GENERATE topic=числа interest=0.97 curiosity=1.00
+step 390: GENERATE topic=числа interest=0.98 curiosity=1.00
+step 391: GENERATE topic=числа interest=0.98 curiosity=1.00
+step 392: REST energy=0.91 mastery=1.00
+step 393: GENERATE topic=числа interest=0.98 curiosity=1.00
+step 394: GENERATE topic=числа interest=0.98 curiosity=1.00
+step 395: VERIFY 31+96=127 ok=true
+step 396: GENERATE topic=числа interest=0.99 curiosity=1.00
+step 397: GENERATE topic=числа interest=0.99 curiosity=1.00
+step 399: REST energy=0.98 mastery=1.00
+step 400: GENERATE topic=числа interest=0.99 curiosity=1.00
+step 402: GENERATE topic=числа interest=0.84 curiosity=1.00
+step 403: GENERATE topic=проверка interest=0.71 curiosity=1.00
+step 405: GENERATE topic=числа interest=0.71 curiosity=1.00
+step 406: GENERATE topic=проверка interest=0.62 curiosity=1.00
+step 407: REST energy=0.92 mastery=0.92
+step 408: GENERATE topic=числа interest=0.74 curiosity=1.00
+step 409: GENERATE topic=числа interest=0.76 curiosity=1.00
+step 411: GENERATE topic=числа interest=0.81 curiosity=1.00
+step 412: GENERATE topic=числа interest=0.83 curiosity=1.00
+step 414: GENERATE topic=числа interest=0.86 curiosity=1.00
+step 415: REST energy=0.86 mastery=1.00
+step 417: GENERATE topic=числа interest=0.74 curiosity=1.00
+step 418: GENERATE topic=числа interest=0.76 curiosity=1.00
+step 419: VERIFY 51+90=141 ok=true
+step 420: GENERATE topic=числа interest=0.66 curiosity=1.00
+step 421: GENERATE topic=числа interest=0.69 curiosity=1.00
+step 422: REST energy=0.93 mastery=1.00
+step 423: GENERATE topic=числа interest=0.72 curiosity=1.00
+step 424: GENERATE topic=числа interest=0.75 curiosity=1.00
+step 426: GENERATE topic=числа interest=0.65 curiosity=1.00
+step 427: GENERATE topic=числа interest=0.53 curiosity=1.00
+step 429: GENERATE topic=проверка interest=0.66 curiosity=1.00
+step 430: REST energy=0.87 mastery=1.00
+step 431: VERIFY 16+15=31 ok=true
+step 432: GENERATE topic=проверка interest=0.69 curiosity=1.00
+step 433: GENERATE topic=проверка interest=0.72 curiosity=1.00
+step 435: GENERATE topic=проверка interest=0.77 curiosity=1.00
+step 436: GENERATE topic=проверка interest=0.65 curiosity=1.00
+step 437: REST energy=0.94 mastery=0.99
+step 438: GENERATE topic=проверка interest=0.68 curiosity=1.00
+step 439: GENERATE topic=проверка interest=0.56 curiosity=1.00
+step 441: GENERATE topic=числа interest=0.51 curiosity=1.00
+step 442: GENERATE topic=проверка interest=0.65 curiosity=1.00
+step 443: VERIFY 52+63=115 ok=true
+step 444: GENERATE topic=проверка interest=0.68 curiosity=1.00
+step 445: REST energy=0.86 mastery=1.00
+step 447: GENERATE topic=проверка interest=0.74 curiosity=1.00
+step 450: GENERATE topic=проверка interest=0.81 curiosity=1.00
+step 452: REST energy=0.95 mastery=1.00
+step 455: VERIFY 45+27=72 ok=true
+step 456: GENERATE topic=проверка interest=0.73 curiosity=1.00
+step 460: REST energy=0.87 mastery=1.00
+step 462: GENERATE topic=проверка interest=0.84 curiosity=1.00
+step 467: REST energy=0.96 mastery=1.00
+step 468: GENERATE topic=проверка interest=0.90 curiosity=1.00
+step 474: GENERATE topic=проверка interest=0.95 curiosity=1.00
+step 475: REST energy=0.90 mastery=1.00
+step 479: VERIFY 62+29=91 ok=true
+step 480: GENERATE topic=проверка interest=0.97 curiosity=1.00
+step 482: REST energy=0.97 mastery=1.00
+step 486: GENERATE topic=проверка interest=0.98 curiosity=1.00
+step 490: REST energy=0.91 mastery=1.00
+step 491: VERIFY 72+61=133 ok=true
+step 492: GENERATE topic=проверка interest=0.99 curiosity=1.00
+step 497: REST energy=0.98 mastery=1.00
+step 498: GENERATE topic=проверка interest=0.99 curiosity=1.00

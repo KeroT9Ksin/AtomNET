@@ -1,0 +1,27 @@
+{
+  "config": {
+    "num_blocks": 4,
+    "num_layers": 8,
+    "in_dim": 1024,
+    "hidden_dim": 2048,
+    "pulses": 20,
+    "seed": 42
+  },
+  "issues": [
+    "Very few stable atoms after 20 pulses: 0.00%"
+  ],
+  "recommendations": [
+    "Life does not stabilize: lower stability threshold or increase coherence signal.",
+    "Pulse is reasonably stable; can proceed to Qairo v2 optimization."
+  ],
+  "metrics": {
+    "mean_final_norm": 0.016783217540796612,
+    "std_final_norm": 0.005291788341652458,
+    "cv_final_norm": 0.31530237445765025,
+    "last_final_norm": 0.01862437278032303,
+    "last_max_layer_norm": 0.4391343593597412,
+    "last_min_layer_norm": 0.01862437278032303,
+    "dead_ratio_last": 0.0,
+    "stable_ratio_last": 0.0
+  }
+}

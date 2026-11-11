@@ -1,0 +1,29 @@
+[package]
+name = "atomnet"
+version = "0.2.0"
+edition = "2021"
+
+[lib]
+name = "atomnet"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.25", features = ["extension-module"] }
+numpy = "0.25"
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+libc = "0.2"
+
+# rand_chacha: детерминированный быстрый RNG (шум, шиффл, dropout).
+rand_chacha = "0.3"
+rand_core = "0.6"
+# rayon: многопоточность на УРОВНЕ Veron/обучения (пул потоков задаётся
+# пользователем). Ядра остаются однопоточными: параллелим только по
+# строкам/сэмплам, где результат каждого элемента не меняется.
+rayon = "1.10"
+dynasmrt = "5.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
